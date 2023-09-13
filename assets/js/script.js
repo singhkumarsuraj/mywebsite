@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Suraj Kumar Singh";
+            document.title = "Website | Suraj Kumar Singh";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
